@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "proposal"
+version = "0.1.0"
+description = ""
+authors = ["eder <seikitsi@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.70.0"
+uvicorn = "^0.15.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^21.10b0"
+isort = "^5.10.0"
+flake8 = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
+line_length = 80
+
+[tool.black]
+line-length = 80
