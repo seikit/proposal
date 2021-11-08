@@ -1,4 +1,4 @@
-from src.config.settings import VERSION, TITLE
+from src.config.settings import TITLE
 
 
 def test_title():
